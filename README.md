@@ -1,4 +1,4 @@
-# 🐛 Bug Tracker - MERN Stack
+# 🐛 Bug Tracker Pro - MERN Stack
 
 <div align="center">
 
