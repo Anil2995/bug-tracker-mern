@@ -758,27 +758,35 @@ Response: 200 OK
 ## 📸 Screenshots
 
 ### Dashboard
+![Dashboard](./screenshots/dashboard.png)
 *Beautiful dashboard showing project statistics, quick actions, and recent activity*
 
 ### Project List
+![Project List](./screenshots/project-list.png)
 *Grid view of all projects with status indicators and team member count*
 
 ### Kanban Board
+![Kanban Board](./screenshots/kanban.png)
 *Drag-and-drop interface with three columns (To-Do, In Progress, Done) featuring smooth animations*
 
 ### Ticket Details
+![Ticket Details](./screenshots/ticket-details.png)
 *Modal showing complete ticket information including comments and file attachments with upload functionality*
 
 ### File Upload
+![Upload](./screenshots/upload.png)
 *Image preview grid showing uploaded screenshots with delete buttons on hover*
 
 ### Comments Section
+![Comments](./screenshots/comments.png)
 *Real-time collaboration with inline editing and character counter*
 
 ### Filter & Search
+![Filter](./screenshots/filter.png)
 *Advanced filtering by status, priority, assignee with multiple sort options*
 
 ### Responsive Design
+![Mobile](./screenshots/mobile.png)
 *Fully responsive layout working seamlessly on mobile, tablet, and desktop*
 
 ---
