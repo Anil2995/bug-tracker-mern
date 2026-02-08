@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Use environment variable for production, fallback to localhost for development
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// Use environment variable for production, fallback to Render backend if not set
+const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? 'https://bug-tracker-api.onrender.com/api' : 'http://localhost:5000/api');
 
 // Configure axios to include token in all requests
 axios.interceptors.request.use(
