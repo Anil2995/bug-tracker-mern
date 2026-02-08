@@ -36,7 +36,11 @@ export const AuthProvider = ({ children }) => {
             const savedToken = localStorage.getItem('token');
             if (savedToken) {
                 try {
-                    const response = await axios.get(`${API_URL}/auth/me`);
+                    const response = await axios.get(`${API_URL}/auth/me`, {
+                        headers: {
+                            Authorization: `Bearer ${savedToken}`
+                        }
+                    });
                     setUser(response.data.user);
                     setToken(savedToken);
                 } catch (error) {

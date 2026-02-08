@@ -8,14 +8,35 @@
 
 **A complete, production-ready bug tracking application built with the MERN stack**
 
-[Features](#-features) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [API Docs](#-api-documentation) • [Usage](#-usage)
+[Live Demo](#-live-demo) • [Features](#-features) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [API Docs](#-api-documentation) • [Usage](#-usage)
 
 </div>
 
 ---
 
+## 🚀 Live Demo
+
+### **Frontend Application**
+👉 **[https://bug-tracker-mern.vercel.app](https://bug-tracker-mern.vercel.app)**
+
+### **Backend API**
+👉 **[https://bug-tracker-api.onrender.com](https://bug-tracker-api.onrender.com)**
+
+> **⚠️ Note:** The backend is hosted on Render's free tier. It may take **30-60 seconds** to spin up after inactivity. Please be patient if the initial load is slow!
+
+### **Quick Login Credentials**
+| Email | Password | Role |
+|-------|----------|------|
+| `demo@bugtracker.com` | `demo123` | Demo User |
+| `sarah@bugtracker.com` | `demo123` | Admin |
+
+[View all demo credentials](#-demo-login-credentials)
+
+---
+
 ## 📋 Table of Contents
 
+- [Live Demo](#-live-demo)
 - [Overview](#-overview)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
